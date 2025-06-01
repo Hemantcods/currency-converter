@@ -6,9 +6,10 @@
   "homepage": "https://github.com/Hemantcods/currency-converter/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && gh-pages -d dist",
+    "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist",
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.8",
